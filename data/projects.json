@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": "engagement",
+    "title": "Klasifikasi Engagement Level",
+    "highlight": "Engagement Level",
+    "subtitle": "Klasifikasi Engagement Level Berdasarkan Parameter Fisiologis dan Kondisi Lingkungan menggunakan XGBoost dan CatBoost",
+    "description": "Penelitian klasifikasi tingkat keterlibatan berdasarkan parameter fisiologis dan kondisi lingkungan menggunakan pendekatan Machine Learning.",
+    "category": "Machine Learning",
+    "type": "Tugas Akhir",
+    "period": "2025 – 2026",
+    "role": "Peneliti / Machine Learning",
+    "image": "assets/images/projects/engagement.png",
+
+    "overview": "Proyek ini merupakan penelitian untuk mengklasifikasikan tingkat keterlibatan (Engagement Level) berdasarkan parameter fisiologis dan kondisi lingkungan. Klasifikasi dibagi menjadi tiga kategori, yaitu Highly Engaged, Moderately Engaged, dan Disengaged.",
+
+    "problem": "Tingkat keterlibatan seseorang perlu dianalisis berdasarkan berbagai indikator. Penelitian ini mengangkat bagaimana parameter fisiologis dan kondisi lingkungan dapat digunakan sebagai fitur untuk mengklasifikasikan tingkat keterlibatan, serta bagaimana performa model pada kelompok fitur yang berbeda.",
+
+    "objective": "Mengembangkan dan membandingkan model XGBoost dan CatBoost dalam mengklasifikasikan Engagement Level. Penelitian juga mengevaluasi performa model berdasarkan kelompok fitur fisiologis, lingkungan, serta gabungan keduanya.",
+
+    "solution": "Membangun proses klasifikasi dengan membandingkan dua algoritma Machine Learning pada tiga kelompok fitur, yaitu parameter fisiologis, parameter lingkungan, dan kombinasi keduanya. Hasil setiap percobaan kemudian dievaluasi menggunakan metrik klasifikasi.",
+
+    "contributions": [
+      "Memahami struktur dataset dan karakteristik setiap variabel penelitian.",
+      "Melakukan persiapan dan pra-pemrosesan data sebelum pemodelan.",
+      "Mengelompokkan fitur menjadi kelompok fisiologis, lingkungan, dan gabungan.",
+      "Mengimplementasikan algoritma XGBoost dan CatBoost untuk klasifikasi multikelas.",
+      "Melakukan pelatihan dan pengujian model pada kelompok fitur yang digunakan.",
+      "Mengevaluasi dan membandingkan performa model menggunakan Accuracy, Precision, Recall, dan F1-Score."
+    ],
+
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-Learn",
+      "XGBoost",
+      "CatBoost",
+      "Matplotlib"
+    ],
+
+    "process": [
+      {
+        "title": "Data Understanding",
+        "description": "Memahami dataset, variabel, dan kategori Engagement Level yang digunakan."
+      },
+      {
+        "title": "Data Preparation",
+        "description": "Menyiapkan data dan fitur yang akan digunakan dalam proses klasifikasi."
+      },
+      {
+        "title": "Feature Grouping",
+        "description": "Membentuk kelompok fitur fisiologis, lingkungan, dan gabungan keduanya."
+      },
+      {
+        "title": "Model Development",
+        "description": "Mengimplementasikan dan melatih model XGBoost serta CatBoost."
+      },
+      {
+        "title": "Model Evaluation",
+        "description": "Mengevaluasi hasil klasifikasi dan membandingkan performa kedua algoritma."
+      }
+    ],
+
+    "results": {
+      "description": "Pada pengujian yang dilaporkan, CatBoost memperoleh performa klasifikasi tinggi dengan hasil sebagai berikut.",
+      "metrics": [
+        {
+          "label": "Accuracy",
+          "value": "99,50%"
+        },
+        {
+          "label": "Precision",
+          "value": "99,72%"
+        },
+        {
+          "label": "Recall",
+          "value": "98,25%"
+        },
+        {
+          "label": "F1-Score",
+          "value": "98,96%"
+        }
+      ]
+    },
+
+    "links": {
+      "github": "",
+      "demo": "",
+      "documentation": ""
+    }
+  }
+]
