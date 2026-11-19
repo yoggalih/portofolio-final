@@ -1,4 +1,3 @@
-
 [
   {
     "id": "engagement",
@@ -11,15 +10,10 @@
     "period": "2025 – 2026",
     "role": "Peneliti / Machine Learning",
     "image": "assets/images/projects/engagement.png",
-
     "overview": "Proyek ini merupakan penelitian untuk mengklasifikasikan tingkat keterlibatan (Engagement Level) berdasarkan parameter fisiologis dan kondisi lingkungan. Klasifikasi dibagi menjadi tiga kategori, yaitu Highly Engaged, Moderately Engaged, dan Disengaged.",
-
     "problem": "Tingkat keterlibatan seseorang perlu dianalisis berdasarkan berbagai indikator. Penelitian ini mengangkat bagaimana parameter fisiologis dan kondisi lingkungan dapat digunakan sebagai fitur untuk mengklasifikasikan tingkat keterlibatan, serta bagaimana performa model pada kelompok fitur yang berbeda.",
-
     "objective": "Mengembangkan dan membandingkan model XGBoost dan CatBoost dalam mengklasifikasikan Engagement Level. Penelitian juga mengevaluasi performa model berdasarkan kelompok fitur fisiologis, lingkungan, serta gabungan keduanya.",
-
     "solution": "Membangun proses klasifikasi dengan membandingkan dua algoritma Machine Learning pada tiga kelompok fitur, yaitu parameter fisiologis, parameter lingkungan, dan kombinasi keduanya. Hasil setiap percobaan kemudian dievaluasi menggunakan metrik klasifikasi.",
-
     "contributions": [
       "Memahami struktur dataset dan karakteristik setiap variabel penelitian.",
       "Melakukan persiapan dan pra-pemrosesan data sebelum pemodelan.",
@@ -28,7 +22,6 @@
       "Melakukan pelatihan dan pengujian model pada kelompok fitur yang digunakan.",
       "Mengevaluasi dan membandingkan performa model menggunakan Accuracy, Precision, Recall, dan F1-Score."
     ],
-
     "technologies": [
       "Python",
       "Pandas",
@@ -38,7 +31,6 @@
       "CatBoost",
       "Matplotlib"
     ],
-
     "process": [
       {
         "title": "Data Understanding",
@@ -61,7 +53,6 @@
         "description": "Mengevaluasi hasil klasifikasi dan membandingkan performa kedua algoritma."
       }
     ],
-
     "results": {
       "description": "Pada pengujian yang dilaporkan, CatBoost memperoleh performa klasifikasi tinggi dengan hasil sebagai berikut.",
       "metrics": [
@@ -83,9 +74,85 @@
         }
       ]
     },
-
     "links": {
       "github": "",
+      "demo": "",
+      "documentation": ""
+    }
+  },
+  {
+    "id": "tbc",
+    "title": "Sistem Monitoring TBC",
+    "highlight": "Monitoring TBC",
+    "subtitle": "Pengembangan backend sistem informasi untuk mendukung pengelolaan data pasien dan monitoring TBC.",
+    "description": "Pengembangan bagian backend untuk mendukung pengelolaan pengguna, pasien, dan proses monitoring TBC.",
+    "category": "Web Development",
+    "type": "Pengembangan Aplikasi",
+    "period": "",
+    "role": "Backend Developer",
+    "image": "",
+    "overview": "Sistem Monitoring TBC merupakan aplikasi yang dikembangkan untuk mendukung pengelolaan informasi terkait pasien dan monitoring TBC.",
+    "problem": "Sistem membutuhkan backend untuk mengelola autentikasi, data pengguna, data pasien, serta proses monitoring secara terstruktur.",
+    "objective": "Mengembangkan bagian backend yang mendukung fungsi utama sistem, khususnya pengelolaan pengguna, pasien, dan monitoring.",
+    "solution": "Mengembangkan modul backend yang mencakup Authentication, Patient, Monitoring, User, dan Role.",
+    "contributions": [
+      "Mengembangkan modul Authentication untuk proses autentikasi pengguna.",
+      "Mengembangkan modul Patient untuk pengelolaan data pasien.",
+      "Mengembangkan modul Monitoring untuk pengelolaan data monitoring TBC.",
+      "Mengembangkan modul User untuk pengelolaan data pengguna.",
+      "Mengembangkan modul Role untuk pengaturan peran dan hak akses pengguna."
+    ],
+    "technologies": [],
+    "process": [],
+    "results": {
+      "description": "Kontribusi backend mencakup lima bagian utama sistem, yaitu Authentication, Patient, Monitoring, User, dan Role.",
+      "metrics": []
+    },
+    "links": {
+      "github": "",
+      "demo": "",
+      "documentation": ""
+    }
+  },
+  {
+    "id": "magang",
+    "title": "Sistem Informasi Magang",
+    "highlight": "Informasi Magang",
+    "subtitle": "Perancangan dan pengembangan prototype Sistem Informasi Magang.",
+    "description": "Pengembangan sistem informasi magang yang dikerjakan secara mandiri, mulai dari perancangan hingga implementasi aplikasi.",
+    "category": "Web Development",
+    "type": "Proyek Mandiri",
+    "period": "2025",
+    "role": "Full-Stack Developer",
+    "image": "",
+    "organization": "Pengadilan Negeri Klaten Kelas IA",
+    "overview": "Sistem Informasi Magang merupakan proyek pengembangan aplikasi yang dibuat untuk mendukung pengelolaan kegiatan magang melalui sebuah sistem informasi.",
+    "problem": "Pengelolaan kegiatan magang membutuhkan sistem yang dapat menyajikan informasi dan mendukung proses administrasi secara lebih terstruktur.",
+    "objective": "Membangun prototype Sistem Informasi Magang sebagai solusi digital untuk mendukung pengelolaan kegiatan magang.",
+    "solution": "Merancang dan mengembangkan aplikasi Sistem Informasi Magang secara mandiri, mulai dari perancangan sistem hingga implementasi.",
+    "contributions": [
+      "Menganalisis kebutuhan sistem informasi magang.",
+      "Merancang struktur dan alur sistem.",
+      "Mengembangkan antarmuka aplikasi.",
+      "Mengimplementasikan fungsi dan fitur aplikasi.",
+      "Melakukan pengujian terhadap fungsi sistem."
+    ],
+    "technologies": [
+      "PHP",
+      "Laravel 12",
+      "JavaScript",
+      "Tailwind CSS",
+      "Alpine.js",
+      "Vite",
+      "MySQL"
+    ],
+    "process": [],
+    "results": {
+      "description": "Menghasilkan prototype Sistem Informasi Magang yang dikembangkan secara mandiri.",
+      "metrics": []
+    },
+    "links": {
+      "github": "https://github.com/yoggalih/SistemInformasiMagang",
       "demo": "",
       "documentation": ""
     }

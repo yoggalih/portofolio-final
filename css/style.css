@@ -26,7 +26,11 @@ body {
   background: var(--background);
 }
 
-h1, h2, h3, h4, h5,
+h1,
+h2,
+h3,
+h4,
+h5,
 .navbar-brand {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
@@ -64,7 +68,7 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .nav-link:hover,
@@ -91,7 +95,7 @@ section {
   min-height: 100vh; /* Set tiap section minimal setinggi layar */
   display: flex;
   align-items: center; /* Memposisikan isi section di tengah vertikal */
-  padding-top: 80px;   /* Ruang untuk navbar fixed-top */
+  padding-top: 80px; /* Ruang untuk navbar fixed-top */
   padding-bottom: 40px;
   box-sizing: border-box;
 }
@@ -184,7 +188,7 @@ section {
   border-radius: 40px;
   font-size: 14px;
   font-weight: 700;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .btn-primary-custom {
@@ -253,7 +257,7 @@ section {
   object-fit: cover;
   object-position: center top;
   border-radius: 0 0 45% 45%;
-  filter: drop-shadow(0 15px 15px rgba(0,0,0,.12));
+  filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.12));
 }
 
 .image-label {
@@ -300,7 +304,7 @@ section {
   height: 55px;
   border-color: #aaa;
   border-style: solid;
-  opacity: .6;
+  opacity: 0.6;
   pointer-events: none;
 }
 
@@ -359,7 +363,6 @@ section {
   font-size: 13px;
   margin: 0;
 }
-
 
 /* EXPERIENCE */
 .timeline {
@@ -430,13 +433,13 @@ section {
   background: white;
   color: var(--black);
   height: 100%;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   color: var(--black);
-  box-shadow: 0 15px 35px rgba(0,0,0,.07);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
 }
 
 .project-visual {
@@ -476,7 +479,7 @@ section {
   right: 25px;
   bottom: 10px;
   font-size: 65px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .project-card-info {
@@ -575,7 +578,7 @@ section {
   padding: 15px 28px;
   border-radius: 40px;
   font-weight: 700;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn-contact:hover {
@@ -684,7 +687,6 @@ section {
   }
 }
 
-
 /* =========================================
    PROJECT DETAIL PAGE
 ========================================= */
@@ -711,7 +713,7 @@ section {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 42px;
-  transition: color .25s ease;
+  transition: color 0.25s ease;
 }
 
 .project-detail-hero .back-link:hover {
@@ -861,12 +863,14 @@ section {
   border: 1px solid #e8eaf0;
   border-radius: 18px;
   background: #fff;
-  transition: transform .3s ease, box-shadow .3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .project-info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(24, 38, 75, .07);
+  box-shadow: 0 15px 40px rgba(24, 38, 75, 0.07);
 }
 
 .info-number {
@@ -938,7 +942,7 @@ section {
   gap: 25px;
   padding: 23px 8px;
   border-bottom: 1px solid #e6e8ed;
-  transition: padding .25s ease;
+  transition: padding 0.25s ease;
 }
 
 .contribution-item:hover {
@@ -1255,7 +1259,7 @@ section {
   text-decoration: none;
   font-size: 14px;
   margin-bottom: 35px;
-  transition: color .2s ease;
+  transition: color 0.2s ease;
 }
 
 .showcase-back:hover {
@@ -1264,7 +1268,7 @@ section {
 
 .showcase-hero-grid {
   display: grid;
-  grid-template-columns: 1.05fr .95fr;
+  grid-template-columns: 1.05fr 0.95fr;
   align-items: center;
   gap: 55px;
 }
@@ -1423,7 +1427,7 @@ section {
 
 .showcase-work-grid {
   display: grid;
-  grid-template-columns: 1.5fr .8fr;
+  grid-template-columns: 1.5fr 0.8fr;
   gap: 45px;
   align-items: start;
 }
@@ -1549,7 +1553,7 @@ section {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .showcase-button:hover {
@@ -1634,12 +1638,11 @@ section {
   }
 }
 
-
 /* CONTRIBUTION + RESULTS */
 
 .showcase-work-grid {
   display: grid;
-  grid-template-columns: 1.5fr .8fr;
+  grid-template-columns: 1.5fr 0.8fr;
   gap: 40px;
   align-items: start;
 }
@@ -1834,7 +1837,7 @@ section {
   font-weight: 700;
   color: var(--text-muted);
   margin-bottom: 28px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .simple-back:hover {
